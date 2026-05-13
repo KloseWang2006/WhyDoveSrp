@@ -10,7 +10,7 @@ def main():
     model = ModelFactory.create(
         model_platform=ModelPlatformType.OPENAI,
         model_type=ModelType.GPT_4O_MINI,
-        api_key="sk-Avpdz6EogreRqeFvZLYnFa84Iwuac6bwSaN58mBu3JkWBVSC",
+        api_key="your openai key“,
         url="https://api.chatanywhere.tech/v1",
     )
 
